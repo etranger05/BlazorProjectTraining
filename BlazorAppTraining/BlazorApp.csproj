@@ -12,4 +12,8 @@
     <None Include="wwwroot\css\open-iconic\README.md" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorAppModels\BlazorAppModels.csproj" />
+  </ItemGroup>
+
 </Project>
