@@ -1,0 +1,52 @@
+﻿<ul>
+    @foreach (Site site in Sites)
+    {
+        <li>
+            <a href="@site.Url" target="_blank">@site.Title (@site.Description)</a>
+        </li>
+    }
+</ul>
+
+@code {
+
+    private List<Site> sites;
+
+    public List<Site> Sites
+    {
+        get { return sites; }
+        set { sites = value; }
+    }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        sites = new List<Site>()
+        {
+            new Site{
+                Id = 1,
+                Title ="Docker Best Practice",
+                Url="https://changhoi.github.io/posts/docker/Docker-best-practices/?fbclid=IwAR2gedcAOlW4ZbeLkKah1WqFmxzaP36hI22aD7MSTwjwUxxcS6SEXhKqDEI",
+                Description="Docker Best Practice",
+            },
+            new Site{
+                Id = 2,
+                Title = "Linux Performance Analyse",
+                Url ="https://medium.com/netflix-techblog/linux-performance-analysis-in-60-000-milliseconds-accc10403c55",
+                Description = "Linux Performance Analyse",
+            },
+            new Site{
+                Id = 3,
+                Title ="ASP.NET Core Lecture",
+                Url="https://le-piee.tistory.com/6",
+                Description ="ASP.NET Core Lecture",
+            },
+            new Site{
+                Id = 4,
+                Title ="33 things all the Javascript developer shoud know",
+                Url="https://github.com/yjs03057/33-js-concepts#1-%ED%98%B8%EC%B6%9C-%EC%8A%A4%ED%83%9D",
+                Description = "33 things all the Javascript developer shoud know",
+            },
+        };
+    }
+}

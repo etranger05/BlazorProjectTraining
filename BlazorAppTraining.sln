@@ -9,13 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppAdmin", "BlazorApp
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BlazorAppSqlServer", "BlazorSqlser\BlazorAppSqlServer.sqlproj", "{C98CA3A9-00F2-4D09-9871-D6D90EA3901A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppModels", "BlazorAppModels\BlazorAppModels.csproj", "{8A33F644-2167-41AA-98B2-592A1AE4979E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppModels", "BlazorAppModels\BlazorAppModels.csproj", "{8A33F644-2167-41AA-98B2-592A1AE4979E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppModelsTests", "BlazorAppModelsTests\BlazorAppModelsTests.csproj", "{0EFBAF4B-80BC-4C31-A898-8916B9266408}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppModelsTests", "BlazorAppModelsTests\BlazorAppModelsTests.csproj", "{0EFBAF4B-80BC-4C31-A898-8916B9266408}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppAPIs", "BlazorAppAPIs\BlazorAppAPIs.csproj", "{DF8F54C8-986F-40D1-941F-13BE10F1D966}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppAPIs", "BlazorAppAPIs\BlazorAppAPIs.csproj", "{DF8F54C8-986F-40D1-941F-13BE10F1D966}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppSSO", "BlazorAppSSO\BlazorAppSSO.csproj", "{13448EB9-2C2D-4FAF-BED4-E68EF06060CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppSSO", "BlazorAppSSO\BlazorAppSSO.csproj", "{13448EB9-2C2D-4FAF-BED4-E68EF06060CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{C7AB7D8D-351A-433B-9999-B754C6E91812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCalendar", "LibCalendar\LibCalendar.csproj", "{C274AF98-1E57-4993-8E7E-10AFDC027BD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,9 +57,16 @@ Global
 		{13448EB9-2C2D-4FAF-BED4-E68EF06060CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13448EB9-2C2D-4FAF-BED4-E68EF06060CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13448EB9-2C2D-4FAF-BED4-E68EF06060CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C274AF98-1E57-4993-8E7E-10AFDC027BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C274AF98-1E57-4993-8E7E-10AFDC027BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C274AF98-1E57-4993-8E7E-10AFDC027BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C274AF98-1E57-4993-8E7E-10AFDC027BD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C274AF98-1E57-4993-8E7E-10AFDC027BD7} = {C7AB7D8D-351A-433B-9999-B754C6E91812}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BCF2F41-C427-4EB9-9444-F1398AD4EAE2}
