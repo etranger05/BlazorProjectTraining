@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace BlazorAppTraining.Pages
+namespace BlazorApp.Pages
 {
     public partial class Services : ComponentBase
     {

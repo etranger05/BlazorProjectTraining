@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace BlazorAppTraining.Pages.Portfolios
+namespace BlazorApp.Pages.Portfolios
 {
     public partial class PortfolioWebsite : ComponentBase
     {

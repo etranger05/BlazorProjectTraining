@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
 using System;
 
-namespace BlazorAppTraining.Pages
+namespace BlazorApp.Pages
 {
     public partial class About : ComponentBase
     {

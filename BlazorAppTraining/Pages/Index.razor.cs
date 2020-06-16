@@ -1,4 +1,4 @@
-﻿namespace BlazorAppTraining.Pages
+﻿namespace BlazorApp.Pages
 {
     public partial class Index
     {
