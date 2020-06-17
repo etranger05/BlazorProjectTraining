@@ -1,0 +1,20 @@
+﻿<h4>Child Component</h4>
+
+    <button class="btn btn-primary" @onclick="PassToParent">Pass String to Parent</button>
+    <p>String received from Parent : @ToChild</p>
+
+    @code{
+        [Parameter]
+        public string ToChild { get; set; }
+        [Parameter]
+        public Action<string> FromChild { get; set; }
+
+        private string childString;
+
+        public void PassToParent()
+        {
+            childString = ToChild + "- To Parent";
+            FromChild(childString);
+        }
+    }
+}

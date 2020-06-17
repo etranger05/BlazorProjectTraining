@@ -1,0 +1,28 @@
+﻿<h3> Parent Component</h3>
+<p>String in Parent: @parentString</p>
+<button class="btn btn-primary" @onclick="PassToChild">Pass String To Child</button>
+
+<ChildComponent ToChild=@parentString
+                FromChild=@ReceivedFromChild>
+</ChildComponent>
+
+@code{
+
+    private string parentString;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        parentString = "Initial Parent String on OnInitialized method";
+    }
+
+    private void PassToChild()
+    {
+        parentString += "- To Child";
+    }
+    private void ReceivedFromChild(string str)
+    {
+        parentString = str;
+        StateHasChanged();
+    }
+}

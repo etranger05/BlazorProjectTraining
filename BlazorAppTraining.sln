@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppSSO", "BlazorAppSS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{C7AB7D8D-351A-433B-9999-B754C6E91812}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCalendar", "LibCalendar\LibCalendar.csproj", "{C274AF98-1E57-4993-8E7E-10AFDC027BD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibCalendar", "LibCalendar\LibCalendar.csproj", "{C274AF98-1E57-4993-8E7E-10AFDC027BD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
