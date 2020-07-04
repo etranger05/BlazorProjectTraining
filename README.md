@@ -1,1 +1,1 @@
-# MobileDeviceManager: Blazor application training project
+# Blazor application training project
